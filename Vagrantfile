@@ -22,7 +22,7 @@ $set_puppet_version = <<EOF
 /usr/bin/yum clean all
 /usr/bin/yum makecache
 /usr/bin/yum -y erase puppet
-/usr/bin/yum -y install puppet-3.6.2-1.el6
+/usr/bin/yum -y install puppet
 EOF
 
 Vagrant.configure("2") do |config|
